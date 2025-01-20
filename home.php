@@ -335,10 +335,10 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['room_name'], $_GET['chec
     </form>
 
 <!--chatbot-->
-    <script type="text/javascript">
+<script type="text/javascript">
     (function(d, m){
         var kommunicateSettings = 
-            {"appId":"3d260d78aae589e8834c54a4ca74277cb","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            {"appId":"3da2d9e21febbca59eedb58e2cbafc8cd","popupWidget":true,"automaticChatOpenOnNavigation":true};
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
         s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
         var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
@@ -372,4 +372,4 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['room_name'], $_GET['chec
             <p>No rooms available for the selected criteria.</p>
         <?php endif; ?>
     </div>
-<?php endif; ?>
+<?php endif; ?> 
